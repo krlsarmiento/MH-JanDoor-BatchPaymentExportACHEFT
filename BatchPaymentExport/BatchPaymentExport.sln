@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1831
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportBatch", "BatchPaymentExport\ExportBatch.csproj", "{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CreativeDoor_Dev1", "http://localhost/CreativeDoor_Dev1", "{61098CAD-1F83-47B6-A363-8F00C6B4A972}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = "{9bc6d61a-5d4b-4d57-bc6b-5e3f9d04377e}|ExportBatch.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/CreativeDoor_Dev1"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Program Files\Acumatica ERP\CreativeDoor_Dev1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CreativeDoor_Dev1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CreativeDoor_Dev1"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Program Files\Acumatica ERP\CreativeDoor_Dev1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CreativeDoor_Dev1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\Program Files\Acumatica ERP\CreativeDoor_Dev1\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61098CAD-1F83-47B6-A363-8F00C6B4A972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61098CAD-1F83-47B6-A363-8F00C6B4A972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92BE79B5-B43A-4686-A2B3-3BC119848551}
+	EndGlobalSection
+EndGlobal
